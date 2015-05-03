@@ -146,6 +146,10 @@ public class Aderir extends Activity {
 
 
 
+
+
+                //Faz a conexão a base de dados
+
                 try{
                     HttpClient cliente=new DefaultHttpClient();
                     HttpPost publica=new HttpPost("http://sitesbruno.esy.es/andaderir.php");
