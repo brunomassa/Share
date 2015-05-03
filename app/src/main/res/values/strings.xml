@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Share</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="associacao"></string>
+    <string name="opnome">Nome</string>
+    <string name="opmail">E-mail</string>
+    <string name="opassunto">Assunto</string>
+    <string name="opmensagem">Mensagem</string>
+    <string name="openviar">Enviar</string>
+    <string name="apelido">Apelido</string>
+    <string name="morada">Morada</string>
+    <string name="cod.postal">Codigo Postal</string>
+    <string name="localidade">Localidade</string>
+    <string name="tlm">Contacto telefonico</string>
+    <string name="anonascimento">Ano de nascimento</string>
+    <string name="espetativas">Expetativas enquanto associado</string>
+    <string name="perfil">Breve perfil e resumo da carreira</string>
+    <string name="aderir">Aderir</string>
+    <string-array name="reforma">
+        <item>Reformado ?</item>
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+    <string-array name="habilitacoes">
+        <item>Habilitacoes</item>
+        <item>Secundario</item>
+        <item>Bacharelato</item>
+        <item>Licenciatura</item>
+        <item>Master ou +</item>
+    </string-array>
+    <string-array name="net">
+        <item>Usa internet?</item>
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+    <string-array name="setor">
+        <item>Setor</item>
+        <item>Industria</item>
+        <item>Servicos</item>
+        <item>Banca/seguros</item>
+        <item>Saude</item>
+        <item>Ensino</item>
+        <item>Comercio</item>
+        <item>Outros</item>
+    </string-array>
+    <string-array name="partilha">
+        <item>Quer partilhar</item>
+        <item>Gestao/Administracao</item>
+        <item>Producao</item>
+        <item>Comercial/Markting</item>
+        <item>RH</item>
+        <item>Administrativa/Financeira</item>
+        <item>Outra</item>
+    </string-array>
+    <string-array name="disponibilidade">
+        <item>Disponibilidade</item>
+        <item>5-10 Horas/Mes</item>
+        <item>10-20 Horas/Mes</item>
+        <item>30-50 Horas/Mes</item>
+        <item>50-80 Horas/Mes</item>
+        <item>+80 Horas/Mês</item>
+    </string-array>
+</resources>

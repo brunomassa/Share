@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffff6600"
+            android:backgroundTint="#fffffff1"
+            android:baselineAligned="false"
+            style="@style/Widget.AppCompat.Light.ActionBar.TabBar"
+            android:theme="@style/Widget.AppCompat.Light.ActionBar.TabBar" />
+        <ScrollView
+            style="@style/scrollbar_shape_style"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffffff">
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        </ScrollView>
+    </LinearLayout>
+
+</TabHost>
