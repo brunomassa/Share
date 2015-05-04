@@ -10,7 +10,9 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class Opiniao extends Activity {
+    //button
     Button enviar;
+    //EditTexts
     EditText nome,mail,assunto,mensagem;
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,7 +26,7 @@ public class Opiniao extends Activity {
             @Override
             public void onClick(View v) {
                 envaimail();
-
+                //apos enviar email
                 nome.setText("");
                 mail.setText("");
                 assunto.setText("");
@@ -36,14 +38,16 @@ public class Opiniao extends Activity {
 
     }
     protected void envaimail(){
+        //recetor do email
         String recetor[]={"opniaoshare@sitesbruno.esy.es"};
+        //atividade que envia o mail
         Intent email=new Intent(Intent.ACTION_SEND, Uri.parse("mailto:"));
 
         email.setType("message/rfc822");
         email.putExtra(Intent.EXTRA_EMAIL, recetor);
         email.putExtra(Intent.EXTRA_SUBJECT, "Opiniao");
         email.putExtra(Intent.EXTRA_TEXT, "Nome: "+nome.getText().toString()+"\n"+"E-mail: "+mail.getText().toString()+"\n"+"Assunto: "+assunto.getText().toString()+"\n"+"Mensagem: "+mensagem.getText().toString());
-
+        //verifica se existe algum cliente de email no dispositivo
         try {
 
             startActivity(Intent.createChooser(email, "Enviar email através de:"));

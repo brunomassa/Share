@@ -26,8 +26,11 @@ package com.example.bruno.share;
   import java.util.List;
 
 public class Aderir extends Activity {
+    //spinners
     Spinner reform,habilitacoes,net,setor,partilhar,disponibilidade;
+    //button
     Button aderir;
+    //EditText
     EditText nome,apelido,morada,codpost,localidade,email,conttel,anonasc,exp,perfil;
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -93,8 +96,7 @@ public class Aderir extends Activity {
         aderir.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Json object
-                JSONObject jsonObject;
+
                 //strings
                 String n,ap,m,cpst,loc,mail,tel,nasc,ref,hab,inet,str,prt,disp,ex,car;
                 InputStream is;
